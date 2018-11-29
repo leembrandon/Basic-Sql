@@ -1,0 +1,19 @@
+CREATE TABLE cellphone(
+    phone_id INT,
+    phonetype VARCHAR(20),
+    manufacturer VARCHAR(10),
+    phonename VARCHAR(25),
+    PRIMARY KEY(phone_id)
+
+);
+
+SELECT * FROM cellphone;
+
+INSERT INTO cellphone VALUES(1,'flip phone','motorola', 'razor');
+INSERT INTO cellphone VALUES(2, 'smart phone', 'blackberry', 'blackberry');
+INSERT INTO cellphone VALUES(3, 'smart phone', 'apple', 'iphone');
+INSERT INTO cellphone VALUES(4, 'smart phone', 'samsung', 'galaxy');
+
+UPDATE cellphone
+SET phonetype = 'no phone'
+WHERE phonetype = 'flip phone';
