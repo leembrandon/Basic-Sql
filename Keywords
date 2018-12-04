@@ -1,0 +1,33 @@
+-- DROP TABLE = Deletes the specified table 
+Example DROP TABLE practice; 
+
+-- CREATE TABLE = creates a table for the database 
+Example CREATE TABLE practice;
+
+-- SELECT = keyword that allows you to pick which data you want to view
+Example SELECT * 
+
+-- FROM = Retrives data from a table 
+Example SELECT * FROM practice;
+
+-- INSERT INTO VALUES = Allows data to be inserted into the table 
+Example INSERT INTO practice VALUES();
+
+-- ORDER BY = Allows the user to pick which way the data is displayed 
+Example SELECT * FROM practice ORDER BY practice_id;
+
+-- GROUP BY = Groups data in whichever way is specified 
+Example SELECT name FROM practice GROUP by practice_id;
+
+-- LIMIT = Limits the amount of data that is returned from a query 
+Example SELECT name FROM practice LIMIT 3;
+
+-- WHERE = Specifies where to get the data from
+Example SELECT * FROM practice WHERE practice_id <> 2;
+
+-- UPDATE = Allows the user to update a coloumn or row
+Example UPDATE practice SET name = 'Brandon' WHERE practice_id = 1;
+
+-- INT = Specifies a number 
+-- VARCHAR = String of text 
+-- PRIMARY KEY = Uniquely identifies each record in a table 
